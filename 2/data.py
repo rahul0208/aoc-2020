@@ -22,6 +22,6 @@ for i in range(len(data)) :
     maxcheck = len(str) >= ma and str[ma - 1] == c
     valid2 = valid2+ 1 if (mincheck and not maxcheck) else valid2
     valid2 = valid2 + 1 if (not mincheck and maxcheck) else valid2
-    
+
 print(valid)
 print(valid2)
