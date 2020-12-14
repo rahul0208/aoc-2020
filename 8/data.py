@@ -33,7 +33,7 @@ while i < len(data):
             i = i - int(cmd.split('-')[1])
     else :
         i = i+1
-        
+
     if i < len(idx) and idx[i] :
          if ( b ==0 ) :
              print("loop", acc, i)
